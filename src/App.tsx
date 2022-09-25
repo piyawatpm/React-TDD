@@ -5,6 +5,7 @@ import { Application } from './components/application/application';
 import { Counter } from './components/counter/counter';
 import { AppProviders } from './providers/app-providers';
 import { MuiMode } from './components/mui/mui-mode';
+import { CounterTwo } from './components/counter-two/counter-two';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <div className='App'>
         {/* <Application /> */}
         {/* <Counter /> */}
-        <MuiMode /> 
+        {/* <MuiMode />  */}
+        <CounterTwo />
       </div>
     </AppProviders>
   );
