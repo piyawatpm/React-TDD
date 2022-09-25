@@ -14,7 +14,7 @@ function App() {
         {/* <Application /> */}
         {/* <Counter /> */}
         {/* <MuiMode />  */}
-        <CounterTwo />
+        {/* <CounterTwo /> */}
       </div>
     </AppProviders>
   );
